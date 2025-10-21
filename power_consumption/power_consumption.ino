@@ -2,6 +2,7 @@
 
 Adafruit_INA260 ina260 = Adafruit_INA260();
 
+int incomingByte = 0;
 void setup() {
   Serial.begin(9600);
   // Wait until serial port is opened
@@ -30,6 +31,12 @@ void loop() {
   Serial.print("Power: ");
   Serial.println(" mW");
 */
+  if(Serial.available()){
+    incomingByte = Serial.read();
+    Serial.print("khadas:");
+    Serial.println(incomingByte, DEC);
+  }
+  
   Serial.println(ina260.readPower());
 
   delay(10);
