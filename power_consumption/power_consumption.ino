@@ -18,6 +18,7 @@ void setup() {
 }
 
 void loop() {
+  /*
   Serial.print("Current: ");
   Serial.print(ina260.readCurrent());
   Serial.println(" mA");
@@ -27,8 +28,9 @@ void loop() {
   Serial.println(" mV");
 
   Serial.print("Power: ");
-  Serial.print(ina260.readPower());
   Serial.println(" mW");
+*/
+  Serial.print(ina260.readPower());
 
   Serial.println();
   delay(10);
