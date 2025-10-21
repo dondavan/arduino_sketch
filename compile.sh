@@ -1,1 +1,1 @@
-./bin/arduino-cli compile --fqbn arduino:avr:uno power_consumption --build-path=./build
+./bin/arduino-cli compile --fqbn arduino:avr:uno power_consumption --build-path=./build --library=./libraries
