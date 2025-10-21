@@ -8,14 +8,10 @@ void setup() {
   // Wait until serial port is opened
   while (!Serial) { delay(10); }
 
-  Serial.println("Adafruit INA260 Test");
-
   if (!ina260.begin()) {
-    Serial.println("Couldn't find INA260 chip");
     while (1)
       ;
   }
-  Serial.println("Found INA260 chip");
 }
 
 void loop() {
