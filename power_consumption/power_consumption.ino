@@ -3,7 +3,7 @@
 Adafruit_INA260 ina260 = Adafruit_INA260();
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(57600);
   // Wait until serial port is opened
   while (!Serial) { delay(10); }
 
