@@ -27,8 +27,7 @@ void loop() {
   Serial.print("Power: ");
   Serial.println(" mW");
 */
-  if(Serial.available()>0){
-    x = Serial.read();
+  if(x = Serial.read()>0){
     Serial.print("khadas:");
     Serial.println(x);
   }
