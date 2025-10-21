@@ -1,1 +1,1 @@
-./bin/arduino-cli compile --fqbn arduino:avr:uno power_consumption --build-path=./build --library=./libraries
+./bin/arduino-cli compile --fqbn arduino:avr:uno power_consumption --build-path=./build --library=./libraries/Adafruit_INA260_Library
