@@ -37,7 +37,7 @@ void loop() {
     Serial.println(incomingByte, DEC);
   }
   
-  Serial.println(ina260.readPower());
+  //Serial.println(ina260.readPower());
 
   delay(10);
 }
