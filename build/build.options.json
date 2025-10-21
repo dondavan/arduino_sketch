@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "/home/hugh/.arduino15/packages",
+  "otherLibrariesFolders": "/home/hugh/Arduino/libraries",
+  "sketchLocation": "/home/hugh/arduino_sketch/power_consumption"
+}

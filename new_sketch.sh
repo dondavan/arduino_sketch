@@ -1,0 +1,1 @@
+./arduino-cli sketch new power_consumption

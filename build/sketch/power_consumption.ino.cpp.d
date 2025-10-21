@@ -1,0 +1,22 @@
+/home/hugh/arduino_sketch/build/sketch/power_consumption.ino.cpp.o: \
+ /home/hugh/arduino_sketch/build/sketch/power_consumption.ino.cpp \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/binary.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/WCharacter.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/WString.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/HardwareSerial.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Stream.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Print.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Printable.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/USBAPI.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard/pins_arduino.h \
+ /home/hugh/Arduino/libraries/Adafruit_INA260_Library/Adafruit_INA260.h \
+ /home/hugh/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CDevice.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src/Wire.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Stream.h \
+ /home/hugh/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CRegister.h \
+ /home/hugh/Arduino/libraries/Adafruit_BusIO/Adafruit_BusIO_Register.h \
+ /home/hugh/Arduino/libraries/Adafruit_BusIO/Adafruit_GenericDevice.h \
+ /home/hugh/Arduino/libraries/Adafruit_BusIO/Adafruit_SPIDevice.h \
+ /home/hugh/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SPI/src/SPI.h
