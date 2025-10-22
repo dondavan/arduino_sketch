@@ -33,7 +33,7 @@ void loop() {
   }
   */
 
-  Serial.write(millis());
+  Serial.write(micros());
   //Serial.write(ina260.readPower());
 
   //delay(10);
