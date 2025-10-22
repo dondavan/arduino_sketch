@@ -29,12 +29,9 @@ void loop() {
 
   */
   if (Serial.available()) {
-    x = Serial.peek();  // Look at the next character
-    Serial.print("Next character will be: ");
-    Serial.println(x);
 
     x = Serial.read();  // Now actually consume it
-    Serial.print("Read character: ");
+    Serial.print("khadas: ");
     Serial.println(x);
   }
   
