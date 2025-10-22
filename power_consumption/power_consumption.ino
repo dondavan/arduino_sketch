@@ -28,9 +28,9 @@ void loop() {
   Serial.println(" mW");
 
   */
- 
-  clock = millis();
-  Serial.println(clock);
+
+  mearsure_clock = millis();
+  Serial.println(mearsure_clock);
 
   if (Serial.available()) {
     x = Serial.read();  // Now actually consume it
