@@ -2,7 +2,7 @@
 
 Adafruit_INA260 ina260 = Adafruit_INA260();
 
-char x = "z";
+char x = "x";
 void setup() {
   Serial.begin(9600);
   // Wait until serial port is opened
@@ -27,12 +27,18 @@ void loop() {
   Serial.print("Power: ");
   Serial.println(" mW");
 
-  if(x = Serial.read()>0){
-    Serial.print("khadas:");
+  */
+  if (Serial.available()) {
+    x = Serial.peek();  // Look at the next character
+    Serial.print("Next character will be: ");
     Serial.println(x);
-  }*/
+
+    x = Serial.read();  // Now actually consume it
+    Serial.print("Read character: ");
+    Serial.println(x);
+  }
   
-  Serial.println(ina260.readPower());
+  //Serial.println(ina260.readPower());
 
   delay(10);
 }
