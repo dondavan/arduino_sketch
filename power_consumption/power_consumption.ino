@@ -35,7 +35,7 @@ void loop() {
   }
   */
 
-  mearsure_clock = millis();
+  mearsure_clock = micros();
   power = ina260.readPower();
   Serial.println(mearsure_clock);
   Serial.println(power);
