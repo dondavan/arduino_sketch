@@ -34,7 +34,7 @@ void loop() {
   */
 
   Serial.write(micros());
-  Serial.write(ina260.readPower());
+  //Serial.write(ina260.readPower());
 
   //delay(10);
 }
