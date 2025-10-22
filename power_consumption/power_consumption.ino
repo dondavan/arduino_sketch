@@ -26,13 +26,13 @@ void loop() {
 
   Serial.print("Power: ");
   Serial.println(" mW");
-*/
+
   if(x = Serial.read()>0){
     Serial.print("khadas:");
     Serial.println(x);
-  }
+  }*/
   
-  //Serial.println(ina260.readPower());
+  Serial.println(ina260.readPower());
 
   delay(10);
 }
