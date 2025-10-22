@@ -3,8 +3,6 @@
 Adafruit_INA260 ina260 = Adafruit_INA260();
 
 char x = "x";
-unsigned long  mearsure_clock;
-float power;
 void setup() {
   Serial.begin(9600);
   // Wait until serial port is opened
@@ -35,10 +33,8 @@ void loop() {
   }
   */
 
-  mearsure_clock = micros();
-  power = ina260.readPower();
-  Serial.println(mearsure_clock);
-  Serial.println(power);
+  Serial.println(micros());
+  Serial.println(ina260.readPower());
 
   //delay(10);
 }
