@@ -28,6 +28,10 @@ void loop() {
   Serial.println(" mW");
 
   */
+ 
+  clock = millis();
+  Serial.println(clock);
+
   if (Serial.available()) {
     x = Serial.read();  // Now actually consume it
     Serial.println(x);
