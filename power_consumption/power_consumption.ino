@@ -29,12 +29,10 @@ void loop() {
 
   */
   if (Serial.available()) {
-
     x = Serial.read();  // Now actually consume it
     Serial.println(x);
   }
-  
-  //Serial.println(ina260.readPower());
+  Serial.println(ina260.readPower());
 
   //delay(10);
 }
