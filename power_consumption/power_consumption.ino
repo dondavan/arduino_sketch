@@ -3,6 +3,7 @@
 Adafruit_INA260 ina260 = Adafruit_INA260();
 
 char x = "x";
+unsigned long  mearsure_clock;
 void setup() {
   Serial.begin(9600);
   // Wait until serial port is opened
