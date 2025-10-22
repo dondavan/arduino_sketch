@@ -33,8 +33,8 @@ void loop() {
   }
   */
 
-  Serial.print(micros());
-  //Serial.write(ina260.readPower());
+  Serial.println(micros());
+  Serial.println(ina260.readPower());
 
   //delay(10);
 }
